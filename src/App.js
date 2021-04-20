@@ -1,4 +1,5 @@
 import React from 'react';
+import Address from './routers/Address'
 import CreateUser from './routers/CreateUser'
 //import UserList from './routers/UserList'
 //import Inputs from './routers/Inputs'
@@ -9,7 +10,7 @@ import CreateUser from './routers/CreateUser'
 function App() {
     return (
         <div>
-            <CreateUser/>
+            <Address/>
         </div>
     );
 }
